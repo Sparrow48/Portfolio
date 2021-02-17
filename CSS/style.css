@@ -299,6 +299,10 @@ header{
     text-align: center;
 }
 
+.para{
+    text-align: justify;
+}
+
 .section__title--services{
     color: var(--clr-accent);
     position: relative;
@@ -340,6 +344,10 @@ header{
 .about-me{
     max-width: 1000px;
     margin: 0 auto;
+}
+
+.about-me__body{
+    text-align: justify;
 }
 
 .about-me-img{
@@ -398,7 +406,9 @@ header{
 }
 
 .portfolio__img{
-    
+
+    width: 100%;
+    height: 100%;
     transition: 
         trasform 750ms cubic-bezier(.5, 0, .5, 1)
         opacity 250ms linear;
