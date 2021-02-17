@@ -24,6 +24,7 @@
 
 }
 
+
 @media (min-width:800px)
 {
     :root{
@@ -35,6 +36,9 @@
     }
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background: var(--clr-light);
@@ -184,6 +188,27 @@ header{
     z-index: 1000;
 }
 
+.nav-open .nav{
+    transform: translateX(0%);
+}
+
+.nav-open .nav__toggle{
+    position: fixed;
+}
+
+.nav-open .hamburger{
+    transform: rotate(.625turn);
+}
+
+.nav-open .hamburger::before{
+    transform: rotate(90deg) translateX(-6px);
+}
+
+.nav-open .hamburger::after{
+    opacity: 0;
+    
+}
+
 .logo{
     max-width: 120px;
 }
@@ -198,7 +223,7 @@ header{
 .hamburger,
 .hamburger::before,
 .hamburger::after{
-    background: var(--clr-dark);
+    background: var(--clr-accent);
     width: 2em;
     height: 3px;
     border-radius: 1em;  
