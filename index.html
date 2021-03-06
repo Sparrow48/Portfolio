@@ -1,139 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nasib Portfolio Website</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="./img/logo.png" alt="">
-        </div>
-        <button class="nav__toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"> <a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"> <a href="#services" class="nav__link">My Services</a></li>
-                <li class="nav__item"> <a href="#about" class="nav__link">About Me</a></li>
-                <li class="nav__item"> <a href="#work" class="nav__link">My Work</a></li>
-                <li class="nav__item"> <a href="#contact" class="nav__link">Contact Me</a></li>
-                
-            </ul>
-        </nav>
+      <div class="logo">
+        <img src="./img/logo.png" alt="" />
+      </div>
+      <button class="nav__toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <!--Introduction-->
 
     <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">
-            Hi, I'm <strong>Md. Abu Nasib</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle--intro"> Front-end developer</p>
-        <img src="./img/nasib.png" alt="" class="intro--img">
+      <h1 class="section__title section__title--intro">
+        Hi, I'm <strong>Md. Abu Nasib</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">
+        Front-end developer
+      </p>
+      <img src="./img/nasib.png" alt="" class="intro--img" />
     </section>
 
     <!--My services-->
 
     <section class="my-services" id="services">
-        <h2 class="section__title section__title--services"> what I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3> Web Development</h3>
-                <p class="para">I always love to develop website. I have already develop some nice web application.You can check them from my github accout which is already provided in the contact section. Please have a look.
-                </p>
-            </div>
-
-            <div class="service">
-                <h3>Back-End</h3>
-                <p class="para">Though I am a front-end developer but I have also knowledge about back-end development.I have completed some website where I was assign to develop back-end site.
-                </p>
-            </div>
-
-            <div class="service">
-                <h3>React JS</h3>
-                <p class="para">Currently I am working with react js. I am trying to learn React as a fonr-end JS frame-work. I am always curious to learn new things. </p>
-            </div>
-
+      <h2 class="section__title section__title--services">what I do</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Web Development</h3>
+          <p class="para">
+            I always love to develop website. I have already develop some nice
+            web application.You can check them from my github accout which is
+            already provided in the contact section. Please have a look.
+          </p>
         </div>
 
-        <a href="#work" class="btn">My Work</a>
+        <div class="service">
+          <h3>Back-End</h3>
+          <p class="para">
+            Though I am a front-end developer but I have also knowledge about
+            back-end development.I have completed some website where I was
+            assign to develop back-end site.
+          </p>
+        </div>
+
+        <div class="service">
+          <h3>React JS</h3>
+          <p class="para">
+            Currently I am working with react js. I am trying to learn React as
+            a fonr-end JS frame-work. I am always curious to learn new things.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">My Work</a>
     </section>
 
     <!--About Me-->
 
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Front-End Web Developer</p>
+      <h2 class="section__title section__title--about">who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        Front-End Web Developer
+      </p>
 
-        <div class="about-me__body">
-            <p>Hello, I'm Md. Abu Nasib. I have completed my graduation from
-            North South University in 2021. I am a web developer with a strong interest 
-            in projects that requires both
-            conceptual and analytical thinking. I have experience working as
-            part of a team and individually. I am always eager to learn from
-            anyone and everyone. I am always energetic and eager to learn
-            new skills.</p>
-        </div>
+      <div class="about-me__body">
+        <p>
+          Hello, I'm Md. Abu Nasib. I have completed my graduation from North
+          South University in 2021. I am a web developer with a strong interest
+          in projects that requires both conceptual and analytical thinking. I
+          have experience working as part of a team and individually. I am
+          always eager to learn from anyone and everyone. I am always energetic
+          and eager to learn new skills.
+        </p>
+      </div>
 
-        <img src="./img/Smiling.png" alt="" class="about-me-img">
+      <img src="./img/Smiling.png" alt="" class="about-me-img" />
     </section>
 
     <!--My work-->
 
     <section class="my-work" id="work">
-        <h2 class="section__title section__title--work">My Work</h2>
-        <p class="section__subtitle section__subtitle--work">A selection of range of my work</p>
+      <h2 class="section__title section__title--work">My Work</h2>
+      <p class="section__subtitle section__subtitle--work">
+        A selection of range of my work
+      </p>
 
-        <div class="portfolio">
-            <a href="#" class="portfolio__item">
-                <img src="./img/mw1.png" alt="" class="portfolio__img">
-            </a>
+      <div class="portfolio">
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw1.png" alt="" class="portfolio__img" />
+        </a>
 
-            <a href="#" class="portfolio__item">
-                <img src="./img/mw2.png" alt="" class="portfolio__img">
-            </a>
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw2.png" alt="" class="portfolio__img" />
+        </a>
 
-            <a href="#" class="portfolio__item">
-                <img src="./img/mw3.png" alt="" class="portfolio__img">
-            </a>
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw3.png" alt="" class="portfolio__img" />
+        </a>
 
-            <a href="#" class="portfolio__item">
-                <img src="./img/mw4.png" alt="" class="portfolio__img">
-            </a>
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw4.png" alt="" class="portfolio__img" />
+        </a>
 
-            <a href="#" class="portfolio__item">
-                <img src="./img/mw2.png" alt="" class="portfolio__img">
-            </a>
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw5.png" alt="" class="portfolio__img" />
+        </a>
 
-            <a href="#" class="portfolio__item">
-                <img src="./img/mw1.png" alt="" class="portfolio__img">
-            </a>
-
-
-        </div>
-
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw6.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw7.png" alt="" class="portfolio__img" />
+        </a>
+        <a href="#" class="portfolio__item">
+          <img src="./img/mw8.png" alt="" class="portfolio__img" />
+        </a>
+      </div>
     </section>
 
     <footer class="footer" id="contact">
-        <a href="mailto:abu.nasib@northsouth.edu" class="footer__link">abu.nasib@northsouth.edu</a>
-        
-        <ul class="social__list">
-            <li class="social__list__item"><a href="https://www.facebook.com/abu.nasib.92" class="social__list__link"><i class="fab fa-facebook"></i></a></li>
-            <li class="social__list__item"><a href="https://www.linkedin.com/in/abu-nasib-87223618b/" class="social__list__link"><i class="fab fa-linkedin"></i></a></li>
-            <li class="social__list__item"><a href="https://github.com/Sparrow48" class="social__list__link"><i class="fab fa-github"></i></a></li>
-        </ul>
+      <a href="mailto:abu.nasib@northsouth.edu" class="footer__link"
+        >abu.nasib@northsouth.edu</a
+      >
+
+      <ul class="social__list">
+        <li class="social__list__item">
+          <a
+            href="https://www.facebook.com/abu.nasib.92"
+            class="social__list__link"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <li class="social__list__item">
+          <a
+            href="https://www.linkedin.com/in/abu-nasib-87223618b/"
+            class="social__list__link"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li class="social__list__item">
+          <a href="https://github.com/Sparrow48" class="social__list__link"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
     </footer>
 
     <script src="./js/index.js"></script>
-</body>
+  </body>
 </html>
